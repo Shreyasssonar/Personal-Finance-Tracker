@@ -50,11 +50,11 @@
   transition: all 0.3s;
 }
 
-.btn{
+.btn {
   color: var(--theme);
   text-align: center;
-  margin: 0.5rem 1rem;
-  font-size: 0.8rem;
+  width: 100%;
+  margin: 0.5rem 0rem;
   padding: 0.5rem !important;
   background-color: #fff;
   border: 1px solid var(--theme);
@@ -65,19 +65,22 @@
   justify-content: center;
   height: auto !important;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: var(--theme);
   color: #fff;
-  transform: all 0.3s;
+  transition: all 0.3s;
 }
-.btn-blue{
+
+.btn-blue {
   background-color: var(--theme);
   color: #fff;
 }
-.btn-blue:hover{
+
+.btn-blue:hover {
   background-color: #fff !important;
   color: var(--theme) !important;
-  transform: all 0.3s;
+  transition: all 0.3s;
 }
 
 .input-flex {
